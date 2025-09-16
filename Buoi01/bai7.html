@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Ứng Viên</title>
+</head>
+<body>
+    <div class="main">
+        <form action="#" method="post">
+            <table style="border: 0;height: 50;background-color: bisque;" cellpadding="0" >
+                <tr style="height: 40;background-color: #0033FF;">
+                    <th colspan="2">
+                        <p style="color: #fff;font-size: 5;"><b>Thông Tin Ứng Viên</b></p>
+
+                    </th>
+                </tr>
+                <tr>
+                    <td style="width: 140;">Họ Tên</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Năm Sinh</td>
+                         <td><select name="ns" id="">
+                            <option value="">1995</option>
+                            <option value="">1966</option>
+                            <option selected="selected">1977</option>
+                            <option value="">1998</option>
+                            <option value="">1999</option>
+                            </select>
+
+                         </td>
+                </tr>
+                <tr>
+                    <td>Giới Tính</td>
+                    <td><input type="radio" name="gt">Nam
+                    <input type="radio" name="gt" checked="checked">Nữ</td>
+                </tr>
+                <tr>
+                    <td>Mức Lương  đề Nghị</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Hình Thức Làm Việc</td>
+                    <td><input type="checkbox" name="ht">Toàn Thời Gian
+                    <input type="checkbox" name="ht">Bán Thời gian</td>
+                </tr>
+                <tr>
+                    <td>Thông Tin Khác</td>
+                    <td><textarea rows="4" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Gửi">
+                        <input type="reset" value="Xóa">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>
