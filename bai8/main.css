@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#begin{
+    padding: 0 20px;
+}
+#anhchinh{
+    width: 500px;
+    height: auto;
+}
+#XemThem{
+    
+    position: absolute;
+    left: 62%;
+    bottom: -470px; 
+}
+#betwen{
+    padding: 10px 20px;
+}
+#singin{
+    position: absolute;
+    top:38%;
+    padding: 0 20px;
+}
+.DangNhap{
+    padding: 20px 30px;
+    background-color: aqua;
+}
+.ThongTin3,.ThongTin1,.ThongTin2,.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cach{
+    padding: 0 20px;
+}
+#login{
+    border: 1px solid black ;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+
+
+
