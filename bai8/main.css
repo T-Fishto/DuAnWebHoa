@@ -18,7 +18,12 @@ a:hover{
 #XemThem{
     
     position: absolute;
-    left: 62%;
+    left: 65%;
+    bottom: -400px; 
+}
+#XemT{
+    position: absolute;
+    left: 66%;
     bottom: -470px; 
 }
 #betwen{
